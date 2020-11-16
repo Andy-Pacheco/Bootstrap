@@ -1,0 +1,122 @@
+body {
+	font-family: arial, sans-serif;
+}
+.profile-pic {
+	width: 250px;
+	height: 250px;
+	background-image: url("../images/081bd9cc-0c9b-4895-9c95-d4bf6eae3d5f.jfif");
+	background-size: cover;
+	background-position: top;
+	border-radius: 50%;
+}
+
+.h50 {
+	height: 60vh;
+}
+
+.bars {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 30vh;
+}
+
+.ampliar {
+	transition: all 0.5s;
+	position: relative;
+}
+
+.ampliar:hover {
+	transform: scale(1.2);
+	z-index: 20;
+	box-shadow: 5px 5px 25px 5px black;
+	border: 0;
+}
+
+.bg-blue {
+	background-color: rgb(46, 46, 80);
+	padding: 1% 1%;
+	position: fixed;
+	z-index: 10;
+}
+
+.bg-math {
+	background-image: url("../images/math-bg.jpg");
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	filter: sepia(0.2);
+}
+
+.bg-w {
+	background-color: rgba(46, 46, 80, 0.945);
+	width: 350px;
+	border-radius: 5%;
+}
+
+a {
+	color: rgb(236, 228, 209);
+	padding: 0.5rem 1rem 0.5rem 0rem !important;
+}
+
+.bg-beige {
+	background-color: rgba(46, 46, 80, 0.233);
+}
+
+.bg-beigedark {
+	background-color: rgb(46, 46, 80) !important;
+}
+
+.bg-beigelight {
+	background-color: rgb(111, 111, 177) !important;
+}
+
+.bg-bluedark {
+	background-color: rgb(80, 66, 46) !important;
+}
+
+.bg-bluelight {
+	background-color: rgb(185, 159, 123) !important;
+}
+
+.shadow {
+	box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.418) !important;
+}
+
+.github {
+	background-image: url("../images/github.png");
+}
+
+.facebook {
+	background-image: url("../images/linkedin.png");
+}
+
+.google {
+	background-image: url("../images/google-plus.png");
+}
+
+.google,
+.facebook,
+.github {
+	height: 64px;
+	width: 64px;
+}
+
+.carousel-item img {
+	width: 40%;
+	height: 40%;
+}
+
+.references {
+	flex-direction: row;
+	background-color: transparent;
+	border: 0;
+	padding-left: 15%;
+	width: 80%;
+	margin-bottom: 5%;
+}
+
+.references img {
+	width: 200px;
+}
